@@ -1,39 +1,39 @@
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}	
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
-	width: 100%;
+    width: 100%;
 }
 
-nav {
-	float: right;
-	padding-top: -50px; 
+.navbar ul {
+    list-style-type: none;
+    margin: 20px;
 }
 
-nav ul {
-	padding: 0;
-	margin: 0;
+.navbar li {
+    display: inline;
+    width: 60px;
 }
 
-nav li {
-	display: inline;
-	padding: 0 5px 0 5px;
+.right {
+    float: right;
 }
 
-nav a {
-	padding-left: 15px;
-	color: #000;
-	opacity: 0.75;
-	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: small;
-}
+.navbar a {
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: inline;
+} 
 
-nav a:hover {
-	text-decoration: underline;
+.navbar a:hover {
+    text-decoration: underline;
 }
 
 #dashboard {
@@ -45,6 +45,7 @@ nav a:hover {
 	display: flex;
 	justify-content: center;
 	margin-top: 160px;
+
 }
 
 .searchbar {
@@ -110,10 +111,11 @@ input[type="text"]:hover {
 	padding-left: 27px;
 }
 
-.right {
-	float: right;
+.settings  {
 	padding-right: 27px;
 }
+
+
 
 
 
