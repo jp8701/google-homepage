@@ -1,0 +1,1 @@
+This is part of the Odin Project Web Development Course. This project is about replicating the Google homepage using HTML and CSS. What I learned with this project is using the terminal to send updates to Github and how to start and work through a web project. 
